@@ -28,15 +28,6 @@
             android:name="com.cmpe277.activities.HomeActivity"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.cmpe277.activities.WebViewActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.APP_BROWSER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
